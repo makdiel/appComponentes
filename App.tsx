@@ -1,10 +1,14 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
+import CalculateExercises from './Components/CalculateExercises';
+
+
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Open up App.tsx to start working on your app!</Text>
+      <Text>Tarea Semana 1- Calculadora!</Text>
+      <CalculateExercises></CalculateExercises>
       <StatusBar style="auto" />
     </View>
   );
